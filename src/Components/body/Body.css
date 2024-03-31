@@ -1,0 +1,49 @@
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+
+
+.main h1{
+  color: rgb(162, 246, 6);
+  text-align: center;
+  font-size: 40px;
+  margin-top: 70px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main p{
+  font-size: 20px;
+  color: rgb(251, 249, 244);
+  /* color: black; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+.main .btn{
+  background: transparent;
+  padding: 13px ;
+  margin-top: 30px;
+  width: 50%;
+  font-size: 17px;
+  color: azure;
+  /* background: rgb(177, 8, 25); */
+  border: none;
+  border: 3px solid rgb(162, 246, 6);
+  margin-inline: 120px;
+  border-radius: 20px;
+
+}
+
+.main .btn:hover{
+  background-color:rgb(84, 108, 41);
+  border: none;
+  transition: 0.3s ease ease-in-out;
+}
