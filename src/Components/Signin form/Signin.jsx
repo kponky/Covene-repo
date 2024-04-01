@@ -4,7 +4,7 @@ import './Signin.css'
 const Signin = () => {
   return (
     <>
-    <div className='signupWrapper'>
+    <div className='loginWrapper'>
     <section>
    <div className='Form-side'>
    <h1>Login</h1>
